@@ -68,7 +68,7 @@ export default function PedidosAlertasPage() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
               <h1 style={{ margin: 0, color: '#38bdf8', fontSize: '24px' }}>🔔 Pedidos E-commerce</h1>
               {pendingCount > 0 && (
-                <span style={{ background: '#dc2626', color: 'white', padding: '4px 10px', borderRadius: '20px', fontSize: '12px', fontWeight: 'bold', animate: 'pulse' }}>
+                <span style={{ background: '#dc2626', color: 'white', padding: '4px 10px', borderRadius: '20px', fontSize: '12px', fontWeight: 'bold' }}>
                   {pendingCount} Pendiente(s)
                 </span>
               )}
